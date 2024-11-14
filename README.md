@@ -69,7 +69,7 @@ Method: POST
     {
       "studentIds": ["studentId1", "studentId2"]
     }
-    Change Mentor for Student
+Change Mentor for Student
 URL: /students/:id/mentor
 
 Method: POST
@@ -80,8 +80,9 @@ Method: POST
     {
       "mentorId": "newMentorId"
     }
-    Get Students for Mentor
-    URL: /mentors/:id/students
+Get Students for Mentor
+
+URL: /mentors/:id/students
 
 Method: GET
 
